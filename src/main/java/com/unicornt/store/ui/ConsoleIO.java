@@ -32,7 +32,7 @@ class ConsoleIO {
             try {
                 return Integer.parseInt(scanner.nextLine().trim());
             } catch (NumberFormatException e) {
-                warn("Ingresa un numero entero valido.");
+                warn("Ingresa un número entero valido.");
             }
         }
     }
